@@ -10,7 +10,7 @@ class ClassifierMask(
         numThreads: Int
 ) : Classifier(activity, device, numThreads) {
     override val modelPath: String
-        get() = "modelsoftmax30epoch.tflite"
+        get() = "modelbase.tflite"
     override val labelPath: String
         get() = "labelssoftmax.txt"
     override val preprocessNormalizeOp: TensorOperator

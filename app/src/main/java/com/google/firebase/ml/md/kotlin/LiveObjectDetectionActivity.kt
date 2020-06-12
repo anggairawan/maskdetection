@@ -63,7 +63,7 @@ class LiveObjectDetectionActivity : AppCompatActivity(), OnClickListener {
 
     private val classifier by lazy {
         ClassifierHelper(this, ClassifierSpec(
-            Classifier.Model.QUANTIZED_EFFICIENTNET,
+            Classifier.Model.MASK,
             Classifier.Device.CPU,
             1
         ))
