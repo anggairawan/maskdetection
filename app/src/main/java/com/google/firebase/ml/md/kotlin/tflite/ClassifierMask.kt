@@ -9,10 +9,10 @@ class ClassifierMask(
         device: Device?,
         numThreads: Int
 ) : Classifier(activity, device, numThreads) {
-    override val modelPath: String?
-        get() = "model.tflite"
-    override val labelPath: String?
-        get() = "labels.txt"
+    override val modelPath: String
+        get() = "modelsoftmax30epoch.tflite"
+    override val labelPath: String
+        get() = "labelssoftmax.txt"
     override val preprocessNormalizeOp: TensorOperator
         get() = NormalizeOp(IMAGE_MEAN, IMAGE_STD)
 
@@ -20,15 +20,11 @@ class ClassifierMask(
         get() = NormalizeOp(PROBABILITY_MEAN, PROBABILITY_STD)
 
     companion object {
-        /**
-         * The quantized model does not require normalization, thus set mean as 0.0f, and std as 1.0f to
-         * bypass the normalization.
-         */
-        private const val IMAGE_MEAN = 0.0f
-        private const val IMAGE_STD = 1.0f
 
-        /** Quantized MobileNet requires additional dequantization to the output probability.  */
+        private const val IMAGE_MEAN = 127.0f
+        private const val IMAGE_STD = 128.0f
+
         private const val PROBABILITY_MEAN = 0.0f
-        private const val PROBABILITY_STD = 255.0f
+        private const val PROBABILITY_STD = 1.0f
     }
 }

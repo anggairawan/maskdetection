@@ -307,7 +307,7 @@ abstract class Classifier protected constructor(activity: Activity?, device: Dev
                 pq.add(Recognition("" + key, key, value, null))
             }
             val recognitions = ArrayList<Recognition>()
-            val recognitionsSize = Math.min(pq.size, MAX_RESULTS)
+            val recognitionsSize = Math.min(pq.size, 1)
             for (i in 0 until recognitionsSize) {
                 recognitions.add(pq.poll())
             }
