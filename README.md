@@ -1,5 +1,5 @@
 # Mask Detection Mobile App
-This repository is a final project of Bangk!t Academy collaborated by:
+This repository is a final project of Bangk!t Academy contributed by:
 * [Angga Irawan](https://github.com/anggairawan/)
 * [Uswatun Hasanah](https://github.com/hass-4n)
 
