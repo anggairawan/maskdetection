@@ -14,10 +14,10 @@ Some instances of datasets are shown as follows
 <p align='center'> <img src = https://github.com/anggairawan/maskdetection/blob/master/image/Screenshot%20from%202020-06-18%2002-48-45.png width="750" alt="samples"> </p>
 
 ### Model Building
-* [Baseline](https://colab.research.google.com/drive/1eslkolHfvmGBPteIXxl4_1BCPYx67nJx?usp=sharing)
-* [Improved model using like MobileNetV2](https://colab.research.google.com/drive/1eslkolHfvmGBPteIXxl4_1BCPYx67nJx?usp=sharing)
-* [Improved model using transfer learning (MobileNetV2)](https://colab.research.google.com/drive/1eslkolHfvmGBPteIXxl4_1BCPYx67nJx?usp=sharing)
-<br>The tflite model using MobileNetV2 can be obtained by running this [notebook](https://colab.research.google.com/drive/1eslkolHfvmGBPteIXxl4_1BCPYx67nJx?usp=sharing).
+* [Baseline](https://github.com/anggairawan/maskdetection/blob/master/model/notebook/001-003-mask-baseline%20f.ipynb)
+* [Improved model using like MobileNetV2](https://github.com/anggairawan/maskdetection/blob/master/model/notebook/001.006%20mask-normed.ipynb)
+* [Improved model using transfer learning (MobileNetV2)](https://github.com/anggairawan/maskdetection/blob/master/model/notebook/MaskV1_Improved2.ipynb)
+<br>The tflite model using MobileNetV2 can be obtained by running this [notebook](https://github.com/anggairawan/maskdetection/blob/master/model/notebook/MaskV1_Improved2.ipynb).
 
 ### Demonstration
 For model deployment we build machine learning application on mobile device by utilizing tflite model embedded in apk. 
