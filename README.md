@@ -40,6 +40,12 @@ Place the built model on this directory
 ..\maskdetection\app\src\main\assets
 ```
 
+Open `ClassifierMask.kt` file located here
+
+```
+..\maskdetection\app\src\main\java\com\google\firebase\ml\md\kotlin\tflite\ClassifierMask.kt
+```
+
 Change the `modelPath` and `labelPath` with your new  model and label filename
 
 ```kotlin
