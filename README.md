@@ -79,8 +79,7 @@ Build your APK and your new model now is embedded to the APK.
 
 
 ### Demonstration
-For model deployment we build machine learning application on mobile device by utilizing tflite model embedded in apk. 
-The app is adapted from [this project](https://github.com/esafirm/bangkit-image-classifier-example).
+The app can receive both static image and live feed from camera. Several examples of demonstration are shown below 
 
 <p align="center"> 
 <img src='https://github.com/anggairawan/maskdetection/blob/master/image/WhatsApp%20Image%202020-06-19%20at%2016.35.59(4).jpeg' width="100">
@@ -91,3 +90,6 @@ The app is adapted from [this project](https://github.com/esafirm/bangkit-image-
 <img src='https://github.com/anggairawan/maskdetection/blob/master/image/WhatsApp%20Image%202020-06-19%20at%2016.35.58.jpeg' width="100">
 <img src='https://github.com/anggairawan/maskdetection/blob/master/image/WhatsApp%20Image%202020-06-19%20at%2016.35.58(2).jpeg' width="100">
 </p>
+
+Credit: the app is adapted from [this project](https://github.com/esafirm/bangkit-image-classifier-example).
+
